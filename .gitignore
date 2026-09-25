@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific: raw dataset (not pushed per instruction) and local
+# run artifacts (preprocessed Parquet caches, trained model, logs) --
+# large, regenerable, and not part of the required submission structure.
+dataset/
+code/business_entity_resolution/artifacts/
+.DS_Store
